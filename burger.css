@@ -1,0 +1,115 @@
+body > div, form > div {
+    margin: auto;
+}
+
+#plate {
+    border-bottom: 20px solid ;
+    width: 500px;
+    margin: 0px auto 50px auto;
+    border-radius: 0 0 30px 30px;
+}
+
+
+.top-bread {
+    border-radius: 40px 40px 10px 10px ;
+    width: 400px;
+    height: 70px;
+    border-bottom: solid 4px grey;
+    background-color: #f4b042; 
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom-bread {
+    border-radius: 10px 10px 40px 40px ;
+    width: 400px;
+    height: 50px;
+    border-top: solid 5px grey;
+    background-color: #f4b042; 
+}
+
+.pickle {
+    border-radius: 0px 0px 40px 40px ;
+    width: 400px;
+    height: 40px;
+    background-color: darkgreen;
+    border-bottom: solid 4px green;
+}
+
+.steak {
+    border-radius: 40px 40px 40px 40px  ;
+    width: 430px;
+    height: 40px;
+    background-color: #663a06; 
+    border-bottom: solid 3px #513403;
+}
+
+
+#meat {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.cheese {
+    border-radius: 0px ;
+    width: 430px;
+    height: 20px;
+    background-color: #e5ca30; 
+    border-bottom: solid 5px orange;              
+}
+
+
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+.tomato {
+    border-radius: 0px  ;
+    width: 310px;
+    height: 30px;
+    background-color: darkred; 
+}
+
+.onion {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    background-color: purple;
+    
+}
+
+
+.onion div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: mediumpurple;
+  }
+
+.ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+
+
+radio {
+    text-align: center;
+    position: fixed;
+}
+
+    
